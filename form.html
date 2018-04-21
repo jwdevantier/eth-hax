@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+    <div>
+
+        <nav><ul id="nav">
+            <li class="logo">BitBanking</li>
+            <li id="start">Start</li>
+            <li id="deposit">Deposit</li>
+            <li id="withdraw">Withdraw</li>
+            <li id="check">Check</li>
+        </ul></nav>
+
+        <div class="content">
+            
+
+            <div class="container" id="start-content">
+                <h1>Start</h1>
+                <input type="submit" value="Start the process" />
+            </div>
+
+            <div class="container" id="deposit-content">
+                <h1>Deposit</h1>
+                <form class="form" id="deposit">
+                    <input type="text" placeholder="RefId" name="ref-id" />
+                    <input type="text" placeholder="How much do you want to deposit" name="deposit-amount" />
+                    <input type="submit" value="Deposit amount" />
+                </form>
+            </div>
+
+            <div class="container" id="withdraw-content">
+                <h1>Withdraw</h1>
+                <form class="form" id="withdraw">
+                    <input type="text" name="withdraw-amount" />
+                    <input type="submit" value="Deposit amount" />
+                </form>
+            </div>
+
+            <div class="container" id="check-content">
+                <h1>Check</h1>
+                <form class="form" id="check">
+                    <input type="text" />
+                    <input type="submit" value="Deposit amount" />
+                </form>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="./scripts.js"></script>
+</html>
