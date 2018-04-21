@@ -35,7 +35,16 @@ $( document ).ready(function() {
             console.log(rsp)
         })
     }
+
+    var withdraw = function(values) {
+        alert("withdraw handler called - I am not implemented!")
+    }
+
+    var check = function(values) {
+        alert("check handler called - I am not implemented!")
+    }
     
+    //triggered when "submit" is clicked - the form is sent along
     $(".form").submit(function(e) {
         e.preventDefault()
 
